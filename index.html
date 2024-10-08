@@ -5,14 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Project</title>
-   <link rel="stylesheet" href="estilo.css"
+  <link rel="stylesheet" href="estilo.css">
  </head>
 <body>
   <br>
+  <div style="background-color: white;" >
+  <img src="assets/npower-logo.png" style="left: auto;">
+  <a href="index.html">Home</a>
+  </div>
   <br>
  <h1>IT Team Members</h1>
  <h2>Add a New Member</h2>
-  <form>
+  <form action="index.html" method="post" >
     <div>
       <label for="fname"> First Name &nbsp;</label>  
       <input type="text" id ="fname" name="first_name" value=""/>  
@@ -31,19 +35,28 @@
     </div>  
       <button>Submit</button>
   </form>
-  <h1>Simple grid example</h1>
-
-  <div class="container">
-      <div>One</div>
-      <div>Two</div>
-      <div>Three</div>
-      <div>Four</div>
-      <div>Five</div>
-      <div>Six</div>
-      <div>Seven</div>
-  </div>
-
-  <footer>
+  <h1>Team Members</h1>
+  <table>
+    <tr style="font-weight: bold;" >
+      <td>First Name.</td>
+      <td>Last Name</td>
+      <td>Role</td>
+      <td>Email</td>
+    </tr>
+    <tr>
+      <td>Jhon</td>
+      <td>White.</td>
+      <td>Manager</td>
+      <td>jwhite@npower.net</td>
+    </tr>
+    <tr>
+      <td>Martha</td>
+      <td>Smith</td>
+      <td>Developer</td>
+      <td>msmith@npower.net</td>
+    </tr>
+  </table>
+  <footer style="bottom: auto;">
     <p>©Copyright 2024 by Maricely Villalobos. All rights reversed.</p>
   </footer>
 </body>
