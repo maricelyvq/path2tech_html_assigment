@@ -1,0 +1,33 @@
+  
+body{
+    text-align: center;
+    background-color: rgb(201, 224, 243);
+        }
+form {
+    display: inline-block;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: rgb(178, 203, 224);
+    }
+
+label {
+  font-size: medium;  
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    align-items: baseline;
+
+  }
+  div {
+    margin-bottom: 20px;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  input{
+    cursor: text;
+    text-shadow: none;
+
+  }
