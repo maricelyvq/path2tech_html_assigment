@@ -4,8 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Project</title>
+  <style>
+    body{
+				text-align: center;
+			}
+    form {
+				display: inline-block;
+				/* To see the outline of the form */
+				padding: 1em;
+				border: 1px solid #ccc;
+				border-radius: 1em;
+			}
+
+    label {
+        font-size: large;  
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        align-items: baseline;
+
+      }
+      div {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+</style>
 </head>
 <body>
-  
+
+  <form >
+    <div>
+      <label for="fname"> First Name </label> 
+      <input type="text" id ="fname" name="first_name" value="Insert your name"/>  
+    </div>
+    <div>
+      <label for="lname"> Last Name </label> 
+      <input type="text" id ="lname" name="last_name" value="Insert your Last name"/>  
+    </div>
+    <div>
+      <label for="role"> Role </label> 
+      <input type="text" id ="role" name="role_job" value="Insert your Role"/>  
+    </div>  
+    <div>
+      <label for="email"> Email</label>
+      <input/email type="text" id ="email" name="user_email" value="Insert your email"/>  
+    </div>  
+      <button>Submit</button>
+  </form>
 </body>
 </html>
