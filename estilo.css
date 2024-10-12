@@ -17,23 +17,24 @@ label {
     align-items: baseline;
 
   }
-  div {
+div {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  div margen {
+#margin {
     color: blanchedalmond;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-size: medium;
     
   }
-  input :valid{
+input :valid{
     cursor: text;
     text-shadow: none;
    }
-   table {
+
+table {
     display: inline-block;
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
@@ -41,34 +42,18 @@ label {
     font-size: 0.8rem;
   }
   
-  td, th {
+td, th {
     border: 1px solid rgb(190,190,190);
     padding: 10px 20px;
-  }
-  
-  th {
     background-color: rgb(235,235,235);
-   
-   }
-  td {
-    text-align: center;
-   
   }
-  
-  tr, td {
-    background-color: rgb(245,245,245);
-  }
-   caption {
-    padding: 10px;
-  }
-
 p , vision, mission {
   text-align: justify;
   margin: 3px;
   margin-bottom: 2;
   padding: 20px;
   font-size: larger ;
-}
+ }
 footer{
 font-size: small;
 text-align: center;
