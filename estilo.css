@@ -11,8 +11,7 @@ form {
     }
 
 label {
-  font-size: medium;  
-    color: rgb(0, 0, 0);
+    font-size: medium;  
     font-family: sans-serif;
     align-items: baseline;
 
@@ -31,7 +30,7 @@ div {
   }
 input :valid{
     cursor: text;
-    text-shadow: none;
+    text-shadow:#ccc;
    }
 
 table {
@@ -47,16 +46,18 @@ td, th {
     padding: 10px 20px;
     background-color: rgb(235,235,235);
   }
-p , vision, mission {
-  text-align: justify;
-  margin: 3px;
-  margin-bottom: 2;
-  padding: 20px;
-  font-size: larger ;
+
+ #vision, #mission {
+    text-align: justify;
+    margin: 3px;
+    margin-bottom: 2;
+    padding: 20px;
+    font-size: larger ;
  }
+
 footer{
-font-size: small;
-text-align: center;
-align-items: center;
+  font-size: small;
+  text-align: center;
+  align-items: center;
 
 }
