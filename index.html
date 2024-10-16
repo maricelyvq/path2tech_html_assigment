@@ -21,7 +21,7 @@
   
  <h1>IT Team Members</h1>
  <h2>Add a New Member</h2>
-  <form action="index.html" method="post" >
+  <form id="myform" action="" method="get">
     <div>
       <label for="fname"> First Name &nbsp;</label>  
       <input type="text" id ="fname" name="first_name" value=""/>  
@@ -38,8 +38,8 @@
       <label for="email"> Email</label>
       <input/email type="email" id ="email" name="user_email" value="" />  
     </div>  
-      <button>Submit</button>
-  </form>
+      <button id="mybutton">Submit</button>
+</form>
   <h2>Team Members</h2>
   <table>
     <tr> 
@@ -60,7 +60,16 @@
       <td>Developer</td>
       <td>msmith@npower.net</td>
     </tr>
+    <tr>
+      <td>Jose</td>
+      <td>Flores</td>
+      <td>IT Support</td>
+      <td>jflore@npower.net</td>
+    </tr>
+    <tr id="mylabel"> </tr>
+    
   </table>
+  <script src="index.js">  </script>
   <footer>
     <h5>©Copyright 2024 by Maricely Villalobos. All rights reserved.</h5>
   </footer>

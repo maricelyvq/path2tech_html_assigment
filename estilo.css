@@ -41,10 +41,16 @@ table {
     font-size: 0.8rem;
   }
   
-td, th {
+th {
+    color: white;
     border: 1px solid rgb(190,190,190);
     padding: 10px 20px;
-    background-color: rgb(235,235,235);
+    background-color: rgb(11, 21, 82);
+  }
+  td {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    background-color:white;
   }
 
  #vision, #mission {
