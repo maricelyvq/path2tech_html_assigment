@@ -8,12 +8,12 @@ document.getElementById("mybutton").onclick = function(){
    let form = document.getElementById("myform");
    console.log(user);
 
-   document.getElementById("mylabel").innerHTML = "<td>"+user+"</td> <td>"+lname+"</td><td>"+ userRole+"</td><td>"+u_mail+"</td></tr>"
+   document.getElementById("mylabel").innerHTML = "<tr><td>"+user+"</td> <td>"+lname+"</td><td>"+ userRole+"</td><td>"+u_mail+"</td></tr>"
    
    event.preventDefault();
    form.fname.value = "";
    form.lname.value = "";
    form.role.value = "";
-   form.email.value = "";
+   form.email.value = "@npower.net";
   
 } 
