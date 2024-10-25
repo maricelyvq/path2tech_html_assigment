@@ -33,7 +33,7 @@ div {
   }
 input :valid{
     cursor: text;
-    text-shadow:#ccc;
+    text-shadow:#cccc;
    }
 
 table {
