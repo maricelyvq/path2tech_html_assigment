@@ -4,7 +4,7 @@ body{
         }
 form {
     display: inline-block;
-    padding: 1em;
+    padding: 3em;
     border: 1px solid #ccc;
     border-radius: 1em;
     background-color: rgb(178, 203, 224);
@@ -75,4 +75,15 @@ footer{
 button:hover {
   background-color: rgb(11, 21, 82);
   color: white;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }

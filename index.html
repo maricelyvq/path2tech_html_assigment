@@ -13,31 +13,35 @@
         <img src="assets/npower-logo.png" alt="" style="justify-content: left">
         <a href="index.html" style="right: auto;" >Home</a>
         <a href="about.html">About</a>
-        <a href="index.html">Contact</a>
+        <a href="contact.html">Contact</a>
         <a href="https://github.com/maricelyvq">My Github</a>
       </div>
     </nav>
     <h1>IT Team Members</h1>
     <h2>Add a New Member</h2>
-    <form id="myform" method="get">
+    <form name="myForm" action="index.html" method="" >
       <div>
         <label for="fname"> First Name &nbsp;</label>  
-        <input type="text" id ="fname" name="first_name" value="" placeholder="Paul" maxlength="21" required>  
+        <input  id ="fname" name="first_name" value="" placeholder="Paul" maxlength="21" required>  
       </div>
       <div>
         <label>Last Name &nbsp; </label> 
-        <input id="lname" name="last_name" value=""placeholder="Brown" maxlength="21" re>  
+        <input id="lname" name="last_name" value="" placeholder="Brown" maxlength="21" required>  
       </div>
       <div>
         <label>Role &nbsp;</label> 
-        <input id="role" name="role_job" value=""placeholder="tecnician" maxlength="21">  
+        <input id="role" name="role_job" value="" placeholder="tecnician" maxlength="21"required>  
       </div>  
       <div>
         <label for="email"> Email &nbsp;</label>
         <input type="email" id ="email" name="user_email" value="@npower.net" placeholder="email" required>  
       </div>  
-        <button type="submit" id="mybutton" title="hola">Submit</button>
+        <button type="submit" id="mybutton" >Submit</button>
+    
     </form>
+    
+    <script src="index.js">  </script>  
+
     <br><br>
     <h2>Team Members</h2>
     <table>
@@ -67,7 +71,8 @@
       </tr>
       <tr id="mylabel"> </tr>
       </table>
-    <script src="index.js">  </script>
+     
+    
     <br><br>
     <footer>
       <h5>©Copyright 2024 by Maricely Villalobos. All rights reserved.</h5>
